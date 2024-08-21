@@ -73,3 +73,17 @@ document.write ('Eres un adolecente ')
   document.write ('Eres un adulto mayor ')
  }
 document.write ('<br>')
+
+// EJERCICIO 7 clasificacion de nota
+let nota = prompt (' Ingrese una nota de 0 a 100')
+
+ if (nota  >= 90){
+  document.write ('Exelente')
+ }else if (nota >= 70  ){
+document.write ('Bueno')
+ }else if (nota >= 50 ){
+  document.write('Regular ')
+ }else {
+  document.write (' Insuficiente ')
+ }
+ document.write ('<br>')
