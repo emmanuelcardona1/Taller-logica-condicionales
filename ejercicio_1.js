@@ -44,3 +44,18 @@ else {
 }
 
 document.write ('<br>')
+
+// EJERCICIO 5 comparar dos numeros
+
+let numeroUNO = prompt('Ingrese el numero uno')
+let numeroDos = prompt('Ingrese el nuemro dos ')
+
+if (numeroUNO === numeroDos ){
+document.write ('los nuemros son iguales')
+}else if (numeroUNO > numeroDos){
+  document.write (' el numero uno es mayor que el numero dos')
+}else{
+  document.write ('el numero dos es mayor que el numero uno ')
+}
+
+document.write ('<br>')
