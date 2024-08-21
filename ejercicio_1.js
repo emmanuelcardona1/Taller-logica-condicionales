@@ -209,3 +209,19 @@ document.write ('Buenas tardes');
 
 document.write ('<br>')
 
+// EJERCICIO 15 clasificacion de masa coporal
+let peso = parseFloat(prompt("Ingrese su Peso:"));
+let altura = parseFloat(prompt("Ingrese su Altura:"));
+
+
+
+
+let imc = peso  / ( altura ** 2);
+if (imc < 18.5) {
+  document.write("Bajo peso ");
+} else if (imc >= 18.5 && imc <= 24.9) {
+  document.write("Peso Normal");
+} else if (imc >= 25 && imc <= 29.9) {
+  document.write("Sobrepeso");
+}
+document.write ('<br>')
