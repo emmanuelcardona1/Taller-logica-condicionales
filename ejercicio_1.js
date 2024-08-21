@@ -189,3 +189,23 @@ if(ingresoUsuario === 'admin' && ingresoContrsaseño === '1234'){
     document.write('Acceso denegado')
 }
 document.write ('<br>')
+
+
+// EJERCICIO 14 determinar horario del dia
+
+let hora = prompt (' Ingrese una hora del 0 al 23 ');
+
+ if (hora >6 && hora < 12 ){
+  document.write ('Buenos dias');
+ }else if (hora >= 12 && hora < 18 ){
+document.write ('Buenas tardes');
+ }else if (hora >= 18 && hora <=24 ){
+  document.write('Buenas noches ');
+ }else if (hora >= 0 && hora <=6) {
+  document.write (' Buenas noches ');
+  }else {
+    document.write('Hora ingresada no ¡VALIDA!');
+  }
+
+document.write ('<br>')
+
