@@ -135,3 +135,30 @@ document.write('Has acertado ¡execlente!')
   document.write( 'El numero es: '+ random ,' ¡Intenta de nuevo!')
 }
 document.write ('<br>')
+
+// EJERCICIO 11 calcula precio final
+
+let precioBase = prompt("valor de su compra:");
+
+if (precioBase > 500) {
+  let descuento = 0.15;
+  let volorDescuento = precioBase * descuento;
+  let precioFinal = precioBase - volorDescuento;
+
+  document.write("su compra  es de:", precioFinal);
+} else if (precioBase > 300) {
+  let descuento = 0.1;
+  let volorDescuento = precioBase * descuento;
+  let precioFinal = precioBase - volorDescuento;
+
+  document.write("su compra  es de:", precioFinal);
+} else if (precioBase > 300) {
+  let descuento = 0.05;
+  let volorDescuento = precioBase * descuento;
+  let precioFinal = precioBase - volorDescuento;
+
+  document.write("su compra  es de:", precioFinal);
+} else {
+  document.write("su compra no tiene descuento");
+}
+document.write ('<br>')
