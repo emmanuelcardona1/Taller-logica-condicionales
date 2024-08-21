@@ -87,3 +87,24 @@ document.write ('Bueno')
   document.write (' Insuficiente ')
  }
  document.write ('<br>')
+
+ // EJERCICIO 8 eleccion de menu
+
+let menu =  prompt ('Ingrese un numero del 1 al 3 para el menu')
+
+switch (menu) {
+  case '1':
+    document.write('Pizza')
+    break;
+  case '2':
+    document.write('Hambuerguesa')
+  break;
+  case '3':
+    document.write('Tacos')
+    break;
+
+  default: document.write('opcion no validad')
+    break;
+}
+
+document.write ('<br>')
