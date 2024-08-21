@@ -179,3 +179,13 @@ if (anoBisiesto % 400 == 0) {
 }
 document.write ('<br>')
 
+// EJERCICIO 13 autenticacion de usuario
+let ingresoUsuario = prompt('Ingrese su nombre de usuario:')
+let ingresoContrsaseño = prompt('Ingrese su contraseña ')
+
+if(ingresoUsuario === 'admin' && ingresoContrsaseño === '1234'){
+    document.write('Acceso concedido')
+}else {
+    document.write('Acceso denegado')
+}
+document.write ('<br>')
