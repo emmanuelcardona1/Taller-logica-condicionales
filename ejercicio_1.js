@@ -162,3 +162,20 @@ if (precioBase > 500) {
   document.write("su compra no tiene descuento");
 }
 document.write ('<br>')
+
+// EJERCICIO 12 verificacion de año bisiesto
+
+let anoBisiesto = prompt("Ingrse un año para verificar si es bisiesto:");
+
+if (anoBisiesto % 400 == 0) {
+  document.write("Es año Bisiesto");
+} else if (anoBisiesto % 100 == 0) {
+  document.write("No es una año Bisiesto");
+}else if (anoBisiesto % 4 == 0){
+
+    document.write('Es año Bisiesto');
+}else {
+    document.write('No es un año Bisiesto');
+}
+document.write ('<br>')
+
