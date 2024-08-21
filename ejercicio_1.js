@@ -29,3 +29,18 @@ document.write (' es impar')
 }
 document.write ('<br>')
 
+// EJERCICIO 4  calculo descuento
+let valorCompra = prompt("valor de su compra:");
+
+let descuento = 0.1;
+let volorDescuento = valorCompra * descuento;
+let precioFinal = valorCompra - volorDescuento;
+if (valorCompra >= 100) {
+
+  document.write("su compra  es de:", precioFinal);
+}
+else {
+  document.write ('su compra no tiene descuento');
+}
+
+document.write ('<br>')
