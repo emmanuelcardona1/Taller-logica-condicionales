@@ -19,4 +19,13 @@ document.write ( ' El numero es negativo')
 }
 document.write ('<br>')
 
+// EJERCICIO 3 numero par o impar
+let numeroParOImpar = prompt ('ingrese un nuemro para saber si es par o impar ')
+
+if (numeroParOImpar % 2 == 0){
+    document.write( 'Es par')
+}else {
+document.write (' es impar')
+}
+document.write ('<br>')
 
