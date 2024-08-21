@@ -123,3 +123,15 @@ document.write('triangulo tipo: Escaleno')
 }
 document.write ('<br>')
 
+// EJERCICIO 10 adivina un numero
+let random = Math.random();
+random = random * 10 + 1;
+random = Math.trunc(random);
+
+let numeroAleatorio = prompt('ingrese un numero del 1 al 10')
+if (numeroAleatorio == random){
+document.write('Has acertado ¡execlente!')
+}else {
+  document.write( 'El numero es: '+ random ,' ¡Intenta de nuevo!')
+}
+document.write ('<br>')
