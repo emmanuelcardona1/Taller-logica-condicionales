@@ -108,3 +108,18 @@ switch (menu) {
 }
 
 document.write ('<br>')
+
+// EJERCICIO 9  tipo de triangulo
+let ladoUno = prompt('Ingrese lado uno')
+let ladoDos = prompt('Ingrese lado dos')
+let ladoTres = prompt('Ingrese lado tres')
+
+if (ladoUno === ladoDos && ladoDos === ladoTres) {
+  document.write('triangulo tipo: Equilatero')
+}else if (ladoUno === ladoDos || ladoDos === ladoTres || ladoUno === ladoTres){
+document.write('triangulo tipo: Isosceles')
+}else {
+document.write('triangulo tipo: Escaleno')
+}
+document.write ('<br>')
+
