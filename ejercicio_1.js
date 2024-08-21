@@ -1,10 +1,10 @@
 //  (EJERCICIO 1)Comparar edad
 
-let edad = prompt("Ingrese su edad");
+let edad1 = prompt("Ingrese su edad");
 
-if (edad >= 18) {
+if (edad1 >= 18) {
   document.write("Eres mayor de edad puedes, ingresar");
-} else if (edad < 18) {
+} else if (edad1 < 18) {
   document.write("Eres menor de edad, no puedes ingresar");
 }
 document.write ('<br>')
@@ -58,4 +58,18 @@ document.write ('los nuemros son iguales')
   document.write ('el numero dos es mayor que el numero uno ')
 }
 
+document.write ('<br>')
+
+// EJERCICIO 6 calificacion por edad
+ let edad = prompt (' Ingrese su edad')
+
+ if (edad < 12){
+  document.write ('Eres un niño')
+ }else if (edad >= 12 && edad <= 17   ){
+document.write ('Eres un adolecente ')
+ }else if (edad  >=18 &&  edad <=64  ){
+  document.write('eres un adulto ')
+ }else {
+  document.write ('Eres un adulto mayor ')
+ }
 document.write ('<br>')
